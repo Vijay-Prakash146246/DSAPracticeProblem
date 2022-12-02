@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d019f08-acbc-4104-b1e7-731716a57b37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/Introduction/ArrayQ1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q1AccessingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q2ArraysOfObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q3multiDimensional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q4PassingArraysToMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q5ReturningArraysfromMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q6CloningOfArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
