@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d019f08-acbc-4104-b1e7-731716a57b37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Searching/SearchInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Searching/SearchInLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Searching/SearchInQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Searching/SearchInStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Introduction/ArrayQ1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
