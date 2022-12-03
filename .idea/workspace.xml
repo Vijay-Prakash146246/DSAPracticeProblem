@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d019f08-acbc-4104-b1e7-731716a57b37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q1AccessingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q2ArraysOfObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q3multiDimensional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q4PassingArraysToMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q5ReturningArraysfromMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/ArraysInJava/Q6CloningOfArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/SortingNext/Q1AlternativeSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/SortingNext/Q2Sort_a_nearly_sortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +33,13 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Practice/DST/DataStractureQuestion/src/Traversing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Practice/DST/DataStractureQuestion/src/Traversing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Practice\DST\DataStractureQuestion\src\Traversing" />
