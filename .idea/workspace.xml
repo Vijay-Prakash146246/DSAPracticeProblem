@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d019f08-acbc-4104-b1e7-731716a57b37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/SortingNext/Q1AlternativeSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/SortingNext/Q2Sort_a_nearly_sortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
