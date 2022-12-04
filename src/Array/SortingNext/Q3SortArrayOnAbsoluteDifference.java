@@ -18,7 +18,7 @@ elements are arranged as 5, 9, 10, 3, 2.
 Input: x = 6, arr[] = {1, 2, 3, 4, 5}
 Output: arr[] = {5, 4, 3, 2, 1}
 * */
-public class SortArrayOnAbsoluteDifference
+public class Q3SortArrayOnAbsoluteDifference
 {
     public static  void SortArray(int[]arr,int target)
     {
