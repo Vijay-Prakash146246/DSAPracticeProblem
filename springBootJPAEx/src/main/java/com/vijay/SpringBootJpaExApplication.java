@@ -25,6 +25,9 @@ public class SpringBootJpaExApplication {
 		//saving single user
 //		User user1 = userRepository.save(u1);
 //		System.out.println(user1);
+
+
+
 		//create multiple onject of User
 //		User user = new User();
 //		user.setName("Niraj");
@@ -88,9 +91,63 @@ public class SpringBootJpaExApplication {
 //		System.out.println("User get deleted successfully ");
 
 		//deleting multiple user using iterable
-		Iterable<User> allusers = userRepository.findAll();
-		allusers.forEach(user -> {System.out.println(user);});
-		userRepository.deleteAll(allusers);
+//		Iterable<User> allusers = userRepository.findAll();
+//		allusers.forEach(user -> {System.out.println(user);});
+//		userRepository.deleteAll(allusers);
+
+		//Deleting user bu id
+		//userRepository.deleteById(302);
+		//creating user
+//		User user = new User();
+//		user.setName("Sonu");
+//		user.setCity("Patna");
+//		user.setStatus("SQL Developer");
+//		userRepository.save(user);
+
+
+
+		//Custom finder method
+		//find by name
+//		List<User> findByName = userRepository.findByName("Niraj");
+//		System.out.println("Print data findByName method");
+//		findByName.forEach(person -> {System.out.println(person);});
+
+		//find by city
+//		List<User> findByCity = userRepository.findByCity("Delhi");
+//		System.out.println("Print data findByCity method");
+//		findByCity.forEach(user1 -> {System.out.println(user1);});
+
+		//Query creation from method names
+//		System.out.println("Print data findByNameAndCity method");
+//		List<User> user1 = userRepository.findByNameAndCity("Niraj","Nawada");
+//		user1.forEach(x -> {System.out.println(x);});
+
+//		System.out.println("Print data findByNameOrCity method");
+//		List<User> user2 = userRepository.findByNameOrCity("Vijay","Patna");
+//		user2.forEach(x -> {System.out.println(x);});
+
+//		List<User> user3 = userRepository.findByNameStartingWith("V");
+//		user3.forEach(n-> {System.out.println(n);});
+
+//		List<User> user = userRepository.findByNameEndingWith("u");
+//		user.forEach(user1 -> {System.out.println(user1);});
+
+//		List<User> user = userRepository.findByNameContaining("i");
+//		user.forEach(user1 -> {System.out.println(user1);});
+
+		//.....................................#15Executing JPQL and NAtive Query............................................
+
+//		List<User> allUser = userRepository.getAllUser();
+//		allUser.forEach(n->{System.out.println(n);});
+
+//	List<User> u1 =	userRepository.getUserByName("Vijay");
+//	u1.forEach(n->{System.out.println(n);});
+
+//		List<User> u1 =	userRepository.getUserByNameAndCity("Vijay","Delhi");
+//		u1.forEach(n->{System.out.println(n);});
+
+		List<User> u1 =	userRepository.getUsers();
+		u1.forEach(n->{System.out.println(n);});
 
 	}
 
