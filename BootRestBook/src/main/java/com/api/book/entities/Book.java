@@ -7,9 +7,13 @@ public class Book {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private  int id;
     private  String title;
-    private String author;
+    //Create Author as a non preemitive data type or we can say that object type data
+    //private String author;
+   //for creating One-One RelationShip unidiractional(Book have Author)
+    @OneToOne(cascade = CascadeType.ALL) //cascade = CascadeType.ALL this will perform all the related operation automatically
+    private Author author;
 
-    public Book(int id, String title, String author) {
+    public Book(int id, String title, Author author) {
         this.id = id;
         this.title = title;
         this.author = author;
@@ -34,11 +38,11 @@ public class Book {
         this.title = title;
     }
 
-    public String getAuthor() {
+    public Author getAuthor() {
         return author;
     }
 
-    public void setAuthor(String author) {
+    public void setAuthor(Author author) {
         this.author = author;
     }
 
