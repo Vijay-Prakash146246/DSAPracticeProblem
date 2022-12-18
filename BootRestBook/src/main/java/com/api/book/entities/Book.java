@@ -1,4 +1,5 @@
 package com.api.book.entities;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 @Entity
 @Table(name = "Books")
@@ -11,6 +12,7 @@ public class Book {
     //private String author;
    //for creating One-One RelationShip unidiractional(Book have Author)
     @OneToOne(cascade = CascadeType.ALL) //cascade = CascadeType.ALL this will perform all the related operation automatically
+   @JsonManagedReference //because it is managing
     private Author author;
 
     public Book(int id, String title, Author author) {
